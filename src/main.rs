@@ -1,5 +1,3 @@
-#![feature(proc_macro_hygiene, decl_macro)]
-
 use rocket::{fs::FileServer, get, launch, routes};
 
 mod templates;
