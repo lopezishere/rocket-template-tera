@@ -8,13 +8,13 @@
     <link rel="shortcut icon" href="/public/assets/favicon.png" type="image/png">
     <title>{% block title %}{{ title }} - My App{% endblock %}</title>
 
-    {% include "components/styles.html" %}
+    {% include "components/styles" %}
 </head>
 
 <body>
-    {% include "components/nav.html" %}
+    {% include "components/nav" %}
     <main>
-        {% block content %}{% endblock %}
+        {% block content %}{% endblock content %}
     </main>
 
     <footer class="text-center mb-2">
@@ -22,6 +22,9 @@
                 href="https://www.tailwindtoolbox.com/templates/hero-product">www.tailwindtoolbox.com</a></div>
         <div>Favicon designed by <a class="underline" href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
                 class="underline" href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+        <div>Based on <a class="underline" href="https://github.com/UpsettingBoy/rocket-template"
+                title="rocket-template">rocket-template</a> by <a class="underline"
+                href="https://github.com/UpsettingBoy" title="UpsettingBoy">UpsettingBoy</a></div>
     </footer>
 </body>
 

@@ -1,11 +1,11 @@
-{% extends "components/base.html" %}
+{% extends "components/base" %}
 {% block content %}
 <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
     <!--Left Col-->
     <div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6 group">
         <p class="uppercase tracking-loose">Web template</p>
         <div class="group flex justify-center items-center">
-            <h1 class="font-bold text-3xl my-4 flx flex-row">Rust + Rocket + Askama + TailwindCSS </h1>
+            <h1 class="font-bold text-3xl my-4 flx flex-row">Rust + Rocket + Tera + TailwindCSS </h1>
             <h1 class="hidden lg:block mx-2 font-bold text-3xl my-4 flx flex-row"> = </h1>
             <svg xmlns="http://www.w3.org/2000/svg"
                 class="hidden lg:block h-12 w-12 fill-current text-red-600 group-hover:animate-pulse" fill="none"
@@ -16,12 +16,7 @@
         </div>
         <p class="leading-normal mb-4">This is a template repo to quickly setup a Rust web project using Rocket as the
             web
-            server and Askama + TailwindCSS as the template engine. Go to the wiki for more information.</p>
-        <form action="https://github.com/UpsettingBoy/rocket-template/wiki">
-            <input type="submit"
-                class="bg-transparent hover:bg-gray-900 text-gray-900 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-gray-900 hover:border-transparent cursor-pointer"
-                value="Go to wiki">
-        </form>
+            server and Tera + TailwindCSS as the template engine.</p>
     </div>
     <!--Right Col-->
     <div class="w-full lg:w-1/2 lg:py-6 text-center">
@@ -32,4 +27,4 @@
         </svg>
     </div>
 </div>
-{% endblock %}
+{% endblock content %}
