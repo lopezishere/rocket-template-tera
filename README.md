@@ -2,9 +2,7 @@
 
 Based on [rocket-template](https://github.com/UpsettingBoy/rocket-template)
 
-This repository contains a templete to quickly create a web project based on the [Rocket framework](https://rocket.rs/) + [Tera](https://tera.netlify.app) with [TailwindCSS](https://tailwindcss.com/) for writing the frontend.
-
-More content will be added in wikis in the future.
+This repository contains a template to quickly create a web project based on the [Rocket framework](https://rocket.rs/) + [Tera](https://tera.netlify.app) with [TailwindCSS](https://tailwindcss.com/) for writing the frontend.
 
 ## Requirements
 - [Rustup](https://rustup.rs/) installed (1.23.0+).
