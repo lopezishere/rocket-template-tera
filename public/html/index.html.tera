@@ -1,4 +1,4 @@
-{% extends "components/base.html" %}
+{% extends "components/base" %}
 {% block content %}
 <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
     <!--Left Col-->
@@ -32,4 +32,4 @@
         </svg>
     </div>
 </div>
-{% endblock %}
+{% endblock content %}

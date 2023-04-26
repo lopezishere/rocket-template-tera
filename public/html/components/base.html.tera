@@ -8,13 +8,13 @@
     <link rel="shortcut icon" href="/public/assets/favicon.png" type="image/png">
     <title>{% block title %}{{ title }} - My App{% endblock %}</title>
 
-    {% include "components/styles.html" %}
+    {% include "components/styles" %}
 </head>
 
 <body>
-    {% include "components/nav.html" %}
+    {% include "components/nav" %}
     <main>
-        {% block content %}{% endblock %}
+        {% block content %}{% endblock content %}
     </main>
 
     <footer class="text-center mb-2">
