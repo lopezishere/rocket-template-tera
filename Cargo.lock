@@ -1199,7 +1199,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rocket-template"
+name = "rocket-template-tera"
 version = "0.1.0"
 dependencies = [
  "npm_rs",

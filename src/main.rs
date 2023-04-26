@@ -14,5 +14,5 @@ fn rocket() -> _ {
 
 #[get("/")]
 fn index() -> Template {
-    Template::render("index", context! { title: "Prueba".to_string() })
+    Template::render("index", context! { title: "Index".to_string() })
 }
